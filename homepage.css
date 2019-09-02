@@ -1,0 +1,94 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 1024px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+}
+
+.resume-header {
+    text-align: center;
+}
+
+#resume-title {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.resume-contact {
+    list-style: none;
+    text-align: center;
+    padding-inline: 0;
+
+}
+
+.resume-contact li {
+    margin: 0 1em;
+}
+
+.resume-navigation {
+    list-style: none;
+    padding-inline: 0;
+}
+
+.resume-navigation li {
+    display: inline;
+    font-size: 130%;
+    margin: 0 2em;
+    text-align: center;
+}
+
+.resume-contact li {
+    display: inline-block;
+    font-size: 80%;
+}
+
+.grid {
+    display: flex
+}
+
+.grid div {
+    flex: 1
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container * {
+    min-width: 360px;
+}
+
+.teaser {
+    flex: 1;
+    text-align: center;
+}
+
+.details {
+    flex: 2;
+    padding: 2em;
+}
+
+.section {
+    border-bottom: 3px solid #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .resume-navigation li {
+        display: block;
+    }
+    
+    .resume-contact li {
+        display: block;
+    }
+
+    .details {
+        padding: 0;
+    }
+}
