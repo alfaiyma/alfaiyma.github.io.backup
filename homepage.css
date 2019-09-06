@@ -1,9 +1,9 @@
 body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
     margin-left: 20%;
     margin-right: 20%;
     max-width: 1024px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 100%;
 }
 
 .resume-header {
@@ -68,6 +68,12 @@ body {
 .details {
     flex: 2;
     padding: 2em;
+}
+
+#about .details {
+    font-size: 115%;
+    line-height: 200%;
+    text-align: justify;
 }
 
 .section {
