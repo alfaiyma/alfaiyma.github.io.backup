@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 100%;
+    font-size: 115%;
+    line-height: 200%;
     margin-left: 20%;
     margin-right: 20%;
     max-width: 1024px;
@@ -71,8 +72,6 @@ body {
 }
 
 #about .details {
-    font-size: 115%;
-    line-height: 200%;
     text-align: justify;
 }
 
