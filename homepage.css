@@ -5,6 +5,14 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     max-width: 1024px;
+    background-color: #FEFFFF;
+}
+
+.navigation-headers {
+    background-color: #3AAFA9;
+    color: #FEFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .resume-header {
@@ -20,11 +28,6 @@ body {
     list-style: none;
     text-align: center;
     padding-inline: 0;
-
-}
-
-.resume-contact li {
-    margin: 0 1em;
 }
 
 .resume-navigation {
@@ -35,13 +38,20 @@ body {
 .resume-navigation li {
     display: inline;
     font-size: 130%;
-    margin: 0 2em;
+    margin: 0 1em;
+    padding-inline: 0.5em;
     text-align: center;
 }
 
+.resume-navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .resume-contact li {
-    display: inline-block;
-    font-size: 80%;
+    margin: 0 1em;
+    display: inline;
+    font-size: 70%;
 }
 
 .grid {
@@ -75,8 +85,9 @@ body {
     text-align: justify;
 }
 
-.section {
-    border-bottom: 3px solid #ccc;
+section > h2 {
+    display: block;
+    padding-inline: 1em;
 }
 
 @media only screen and (max-width: 768px) {
