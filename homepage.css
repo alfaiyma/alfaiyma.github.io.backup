@@ -1,11 +1,16 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     font-size: 115%;
     line-height: 200%;
     margin-left: 20%;
     margin-right: 20%;
     max-width: 1024px;
     background-color: #FEFFFF;
+}
+
+.contact-icon {
+    height: 36px;
+    width: 36px;
 }
 
 .navigation-headers {
@@ -26,7 +31,7 @@ body {
 
 .resume-contact {
     list-style: none;
-    text-align: center;
+    text-align: right;
     padding-inline: 0;
 }
 
@@ -37,10 +42,9 @@ body {
 
 .resume-navigation li {
     display: inline;
-    font-size: 130%;
-    margin: 0 1em;
+    font-size: 140%;
+    margin: 0 1rem;
     padding-inline: 0.5em;
-    text-align: center;
 }
 
 .resume-navigation a {
@@ -74,6 +78,7 @@ body {
 .teaser {
     flex: 1;
     text-align: center;
+    font-size: 115%;
 }
 
 .details {
@@ -88,6 +93,7 @@ body {
 section > h2 {
     display: block;
     padding-inline: 1em;
+    font-size: 130%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -101,7 +107,11 @@ section > h2 {
     }
     
     .resume-contact li {
-        display: block;
+        display: inline-block;
+    }
+
+    .resume-contact {
+        text-align: center;
     }
 
     .details {
