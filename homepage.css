@@ -11,6 +11,11 @@ body {
 .contact-icon {
     height: 36px;
     width: 36px;
+    fill: #3AAFA9
+}
+
+.contact-icon:hover {
+    fill: #2b7A78;
 }
 
 .navigation-headers {
@@ -18,6 +23,10 @@ body {
     color: #FEFFFF;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.navigation-headers li:hover {
+    background-color: #2b7A78;
 }
 
 .resume-header {
