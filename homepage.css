@@ -25,6 +25,10 @@ body {
     font-weight: bold;
 }
 
+.navigation-headers a:focus {
+    background-color: #2b7A78;
+}
+
 .navigation-headers li:hover {
     background-color: #2b7A78;
 }
