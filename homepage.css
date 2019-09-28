@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Maven Pro', sans-serif;
     font-size: 115%;
@@ -72,7 +76,9 @@ body {
 }
 
 .grid {
-    display: flex
+    display: flex;
+    align-items: center;
+    padding-inline: 1rem;
 }
 
 .grid div {
@@ -82,10 +88,6 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.container * {
-    min-width: 360px;
 }
 
 .teaser {
@@ -105,14 +107,33 @@ body {
 
 section > h2 {
     display: block;
-    padding-inline: 1em;
+    padding-inline: 1rem;
     font-size: 130%;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:link {
+    font-weight: bold;
+    color: #2b7A78;
+    border-color: #2b7A78;
+}
+
+p a:visited {
+    font-weight: normal;
+    color: #3AAFA9;
+    border-color: #3AAFA9;
+}
+
+p a:hover {
+    border-bottom: 1px solid;
 }
 
 @media only screen and (max-width: 768px) {
     body {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 0 1% 0 1%
     }
 
     .resume-navigation li {
@@ -127,7 +148,11 @@ section > h2 {
         text-align: center;
     }
 
-    .details {
-        padding: 0;
+    .container {
+        display: block;
+    }
+
+    .grid {
+        display: block;
     }
 }
