@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-/* body {
+body {
     font-family: 'Maven Pro', sans-serif;
     font-size: 115%;
     line-height: 200%;
@@ -10,12 +10,11 @@ html {
     margin-right: 20%;
     max-width: 1024px;
     background-color: #FEFFFF;
-} */
+}
 
 .contact-icon {
     height: 36px;
     width: 36px;
-    fill: #3AAFA9
 }
 
 .contact-icon:hover {
