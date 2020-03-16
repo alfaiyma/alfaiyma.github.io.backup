@@ -40,17 +40,6 @@ body {
     text-align: center;
 }
 
-/* #resume-title {
-    font-size: 200%;
-    text-transform: uppercase;
-} */
-
-.resume-contact {
-    list-style: none;
-    text-align: right;
-    padding-inline: 0;
-}
-
 .resume-navigation {
     list-style: none;
     padding-inline: 0;
