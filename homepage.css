@@ -21,21 +21,6 @@ body {
     fill: #2b7A78;
 }
 
-.navigation-headers {
-    background-color: #3AAFA9;
-    color: #FEFFFF;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.navigation-headers a:focus {
-    background-color: #2b7A78;
-}
-
-.navigation-headers li:hover {
-    background-color: #2b7A78;
-}
-
 .resume-header {
     text-align: center;
 }
