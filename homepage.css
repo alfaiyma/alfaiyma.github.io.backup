@@ -82,6 +82,10 @@ section > h2 {
     font-size: 130%;
 }
 
+section > div.container {
+    margin-top: 30px;
+}
+
 p a {
     text-decoration: none;
 }
@@ -110,7 +114,7 @@ p a:hover {
     .resume-navigation li {
         display: block;
     }
-    
+
     .resume-contact li {
         display: inline-block;
     }
