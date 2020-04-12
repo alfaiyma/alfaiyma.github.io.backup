@@ -56,20 +56,18 @@ body {
 }
 
 .grid div {
-    flex: 1
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.teaser {
     flex: 1;
 }
 
-.details {
+.about-img {
+    flex: 1;
+    max-width: unset;
+}
+
+.about-details {
     flex: 2;
+    padding: 2em;
+    text-align: justify;
 }
 
 #about .details {
