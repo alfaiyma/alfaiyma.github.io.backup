@@ -76,7 +76,7 @@
                         <a class="navbar-item" href="#history">Employment</a>
                         <a class="navbar-item" href="#education">Education</a>
                         <a class="navbar-item" href="#projects">Projects</a>
-                        <a class="navbar-item" href="documents/resume.pdf">Resume</a>
+                        <!-- <a class="navbar-item" href="documents/resume.pdf">Resume</a> -->
                 </div>
             </div>
         </nav>
@@ -89,24 +89,27 @@
                     <img src="media/headshot-mobile-circle.png" alt="Photo of Mohammad">
                 </div>
                 <div class="about-details">
-                    <p>
-                        Hi there! I'm a software engineer with a background in application development. I've worked on everything from
-                        graphic cards to android auto applications. I'm known to be always be learning, and looking to expand my knowledge of
-                        software development. Currently, I'm working to improve my skills in web-development and web-design.
+                    <p class="is-size-3-desktop has-text-justifed-desktop is-size-5-mobile has-text-centered-mobile">
+                        Hello and welcome to my site. My name is Mohammad, and I am a Software Engineer currently employed as a
+                        <a href="#stack8">Full Stack Developer</a> at <a href="https://stack8.com/">Stack8</a>, locatated in Montreal, Canada. I've been
+                        professionally invovled with software development for the last 5 years, beginning after completing my degree at <a href="#education">McMaster University</a>.
                     </p>
                 </div>
             </div>
         </section>
         <section id="history" class="section">
             <h2 class="title navigation-headers has-text-white-bis has-background-primary">Employment</h2>
-            <div class="container is-block">
+            <div id ="stack8" class="container is-block">
                 <h3 class="title">Stack8</h3>
                 <div class="subtitle">
                     <h4>Full Stack Developer</h4>
                     <p>November 2019 - Present</p>
                 </div>
                 <div class="content">
-                    <p>Full stack developer working on Stack8's web-application product, <a href="https://www.stack8.com/en/software-solutions/smacs-provisioning/">SMACS</a>.</p>
+                    <!-- TODO : Write better work description -->
+                    <p>
+                        At Stack8 I am a Full stack developer working on Stack8's web-application, <a href="https://www.stack8.com/en/software-solutions/smacs-provisioning/">SMACS</a>.
+                    </p>
                 </div>
             </div>
             <div class="container is-block">
@@ -139,20 +142,23 @@
             <div class="container is-block">
                 <h3 class="title">Dell/EMC</h3>
                 <div class="subtitle">
-                    <h4>Software Engineer</strong>
+                    <h4>Software Engineer</h4>
                     <p>September 2015 - January 2017</p>
                 </div>
-                <p>Responsible for development of <a href="https://www.dellemc.com/en-ca/data-protection/networker.html">Networker Backup and Recovery Solutions</a>. Heavily involved on feature improvement and maintenance of the software’s server component</p>
-                <ul>
-                    <li>Improved reliability and performance of major components within the server module</li>
+                <div class="content">
+                    <p>Responsible for development of <a href="https://www.dellemc.com/en-ca/data-protection/networker.html">Networker Backup and Recovery Solutions</a>.
+                        Key contributer to feature improvement and maintenance of the services' backend</p>
                     <ul>
-                        <li>Identified and fixed an undiscovered denial of service vulnerability within the RPC parsers</li>
-                        <li>Re-implemented the parallel execution of a specific server workloads for better performance and eliminated
-                            resource deadlocks</li>
-                        <li>Development done in C primarily and some C++</li>
+                        <li>Improved reliability and performance of major components within the server module</li>
+                        <ul>
+                            <li>Identified and fixed an undiscovered denial of service vulnerability within the RPC parsers</li>
+                            <li>Re-implemented the parallel execution of a specific server workloads for better performance and eliminated
+                                resource deadlocks</li>
+                            <li>Development done in <strong>C</strong> primarily and alongside <strong>C++</strong></li>
+                        </ul>
+                        <li>Used Python 3.7 to create test scripts to identify and reproduce defects reported by clients</li>
                     </ul>
-                    <li>Used Python 3.7 to create test scripts to identify and reproduce defects reported by clients</li>
-                </ul>
+                </div>
             </div>
             <div class="container is-block">
                 <h3 class="title">AMD</h3>
@@ -160,15 +166,17 @@
                     <h4>Co-op Student</h4>
                     <p>September 2013 - August 2014</p>
                 </div>
-                <p>As a co-op student, I was responsible for maintaining and extending features for several internal tools used in
-                    GPU encoding and decoding processes.</p>
-                <ul>
-                    <li>Extended the amount of debugging information presented to engineers during GPU encoding/decoding video
-                        streams</li>
-                    <li>Assisted in porting a GPU emulator to Mac-OSX. I was responsible for building the UI application which
-                        configured and controlled the emulator</li>
-                    <li>Worked with Objective-C and C on Mac-OSX systems</li>
-                </ul>
+                <div class="content">
+                    <p>As a co-op student, I was responsible for maintaining and extending features for several internal tools used in
+                        GPU encoding and decoding processes.</p>
+                    <ul>
+                        <li>Extended the amount of debugging information presented to engineers during GPU encoding/decoding video
+                            streams</li>
+                        <li>Assisted in porting a GPU emulator to Mac-OSX. I was responsible for building the UI application which
+                            configured and controlled the emulator</li>
+                        <li>Worked with Objective-C and C on Mac-OSX systems</li>
+                    </ul>
+                </div>
             </div>
             <div class="container is-block">
                 <h3 class="title">Minoeworks</h3>
@@ -193,6 +201,7 @@
         <section id="skills" class="section">
             <h2 class="title navigation-headers has-text-white-bis has-background-primary">Technical Summary</h2>
             <div class="grid">
+                <!-- TODO: Update my skills -->
                 <div>
                     <h3>Primary Skills</h3>
                     <ul>
@@ -224,6 +233,7 @@
         <section id="projects" class="section">
             <h2 class="title navigation-headers has-text-white-bis has-background-primary">Projects</h2>
             <div class="container">
+                <!-- TODO : Update this status -->
                 <div class="teaser">
                     <h3>Eyedeabox</h3>
                     <strong>See what ideas are out the box</strong>
